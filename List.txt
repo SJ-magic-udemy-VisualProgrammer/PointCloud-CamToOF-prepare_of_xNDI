@@ -1,17 +1,21 @@
 /************************************************************
 ************************************************************/
-■ ofxNDI/					// addon : 全体をそのまま
-
-■ oF__webcam/				// oF__title/
-	bin/ data/				// 重いデータは適宜削除
-	src/
+■ ofxNDI-SjFixed/
+	本Lectureで使用した、修正済みaddon 一式
 	
-	addons.make
-
-■ Unity__FileBrowser/		// Unity__title/
-	FileBrowser.unitypackage
-
+	修正ファイルは以下
+		src/ofxNDIdynloader.cpp
+		src/ofxNDIreceive.cpp
+		src/ofxNDIreceive.h
+		src/ofxNDIreceiver.cpp
+		src/ofxNDIreceiver.h
+	
 ■ 資料/
-	xxx.txt
-	xxx.pdf
-	xxx.png
+	- このLecture用メモ.txt
+
+
+
+
+
+
+
