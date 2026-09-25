@@ -1,0 +1,22 @@
+/************************************************************
+************************************************************/
+■ "libNDI_for_Mac.pkg"
+	will install
+		"libndi.dylib"
+		"libndi_licenses.txt"
+	at
+		/usr/local/lib
+	
+
+■ check
+	ls -la /usr/local/lib/libndi*
+	
+
+■ installした "libndi.dylib" を消して、元の状態に戻したい
+	sudo rm -f /usr/local/lib/libndi.dylib
+	
+	sudo rm -f /usr/local/lib/libndi*.dylib
+	
+	sudo rm -rf /usr/local/lib
+
+
