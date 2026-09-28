@@ -1,7 +1,8 @@
 /************************************************************
 ************************************************************/
 ■ ofxNDI-original
-	動画作成時点でのofxNDI original
+	動画作成時点でのofxNDI original.
+	diff check等のため、一応uploadしておきます。
 	
 ■ ofxNDI-SjFixed/
 	本Lectureで使用した、修正済みaddon 一式
