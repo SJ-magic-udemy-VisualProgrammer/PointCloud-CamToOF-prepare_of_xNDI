@@ -1,10 +1,18 @@
 /************************************************************
+資料/
 ************************************************************/
-■ ofxNDI-original
+■ このLecture用メモ.txt
+
+
+/************************************************************
+SourceCode/
+************************************************************/
+■ ofxNDI-original.zip
 	動画作成時点でのofxNDI original.
 	diff check等のため、一応uploadしておきます。
-	
-■ ofxNDI-SjFixed/
+
+
+■ ofxNDI-SjFixed.zip
 	本Lectureで使用した、修正済みaddon 一式
 	
 	修正ファイルは以下
@@ -13,13 +21,30 @@
 		src/ofxNDIreceive.h
 		src/ofxNDIreceiver.cpp
 		src/ofxNDIreceiver.h
+
+
+/************************************************************
+link
+************************************************************/
+■ NDI Tools
+	https://ndi.video/tools/
 	
-■ 資料/
-	- このLecture用メモ.txt
-
-
-
-
-
-
-
+	NDI Toolsのダウンロードページです。
+	本Lectureでは、NDI Test PatternsとNDI Video Monitorを使用して、NDIの送受信を確認します。
+	
+■ ofxNDI
+	https://github.com/leadedge/ofxNDI
+	
+■ Runtime link
+	https://ndi.link/NDIRedistV6Apple
+	
+	もしリンクが切れていた場合
+		「NDI macOS Runtime Redistributable 最新版」などのキーワードでChatGPTに尋ねるのも有効です。
+		
+		prompt例
+			「NDIのmacOS Runtime / Redistributableの最新版の公式ダウンロード先を教えて。公式サイトの情報を優先して」
+		
+		ただし、AIが提示したリンクがNDI公式のものか、必ず確認しましょう。
+			ndi.video → NDI公式
+			docs.ndi.video → NDI公式ドキュメント
+			ndi.link → NDIが使用している短縮／リダイレクトURL
